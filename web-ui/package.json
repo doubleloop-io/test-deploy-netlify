@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "n:build": "npm run clean & NETLIFY_SITE_ID=5a52ceb8-2e1f-4d36-a063-14037fea442f netlify build --context production",
-    "n:deploy": "npm run clean & NETLIFY_SITE_ID=5a52ceb8-2e1f-4d36-a063-14037fea442f netlify deploy --build --prod"
+    "n:deploy": "npm run clean & NETLIFY_SITE_ID=5a52ceb8-2e1f-4d36-a063-14037fea442f netlify deploy --build --prod --filter web-ui"
   },
   "dependencies": {
     "react": "19.0.0-rc-02c0e824-20241028",
